@@ -9,7 +9,7 @@ const FacilitiesPage = () => {
       <section className="relative h-[60vh] w-full">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2049&q=80"
+            src="/images/IMG_0868.jpg"
             alt="School background"
             fill
             className="object-cover"

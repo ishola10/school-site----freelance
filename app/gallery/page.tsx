@@ -1,5 +1,5 @@
 import React from "react";
-import { Play } from "lucide-react";
+// import { Play } from "lucide-react";
 import Image from "next/image";
 
 const GalleryPage = () => {
@@ -8,7 +8,7 @@ const GalleryPage = () => {
       <section className="relative h-[60vh] w-full">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            src="/images/IMG_2215.png"
             alt="School background"
             fill
             className="object-cover"
@@ -30,40 +30,68 @@ const GalleryPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                src: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2022&q=80",
+                src: "/images/4D628A35-FEA2-4793-9985-FA7ABBE510C5.jpg",
                 title: "Graduation Ceremony",
               },
               {
-                src: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80",
+                src: "/images/4D628A35-FEA2-4793-9985-FA7ABBE510C5.jpg",
                 title: "Science Fair",
               },
               {
-                src: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2049&q=80",
+                src: "/images/C2417C70-B57A-4029-9751-435CA389EFE8.jpg",
                 title: "School Building",
               },
               {
-                src: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+                src: "/images/D3D3761B-AA73-4589-945A-20B7813A5DF1.jpg",
                 title: "Art Class",
               },
               {
-                src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+                src: "/images/IMG_0868.jpg",
                 title: "Sports Day",
               },
               {
-                src: "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+                src: "/images/IMG_0870.jpg",
                 title: "Music Performance",
               },
               {
-                src: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+                src: "/images/IMG_0891.jpg",
                 title: "Library Study",
               },
               {
-                src: "https://images.unsplash.com/photo-1581726690015-c9861c318b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+                src: "/images/IMG_0893.jpg",
                 title: "Chemistry Lab",
               },
               {
-                src: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+                src: "/images/IMG_0870.jpg",
                 title: "Group Study",
+              },
+              {
+                src: "/images/IMG_0924.jpg",
+                title: "Outdoor Activities",
+              },
+              {
+                src: "/images/IMG_0929.jpg",
+                title: "Classroom Learning",
+              },
+              {
+                src: "/images/IMG_2211.png",
+                title: "Community Service",
+              },
+              {
+                src: "/images/IMG_2212.png",
+                title: "Outdoor Activities",
+              },
+              {
+                src: "/images/IMG_2213.png",
+                title: "Classroom Learning",
+              },
+              {
+                src: "/images/IMG_2214.png",
+                title: "Community Service",
+              },
+              {
+                src: "/images/IMG_2215.png",
+                title: "Outdoor Activities",
               },
             ].map((image, index) => (
               <div
@@ -88,7 +116,7 @@ const GalleryPage = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8">School Events</h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -118,7 +146,7 @@ const GalleryPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

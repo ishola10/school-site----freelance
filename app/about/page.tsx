@@ -46,7 +46,7 @@ const AboutPage = () => {
             </div>
             <div className="rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+                src="/images/IMG_2214.png"
                 alt="School building"
                 width={800}
                 height={600}
@@ -58,7 +58,7 @@ const AboutPage = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center pt-14">
             <div className="rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                src="/images/IMG_0929.jpg"
                 alt="School building"
                 width={800}
                 height={600}
